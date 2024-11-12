@@ -59,3 +59,23 @@ NP-난해 문제는 NP 문제보다는 적어도 더 어렵거나 비슷한 문�
 
 쉽게말하면 곱셈은 덧셈을 여러번 하는 것으로 해결 가능합니다. 따라서 덧셈이 곱셈보다 더 "어렵다" 라고 정의합니다. 
 
+## NP-Complete
+
+An NP-Complete problem is a problem that is both in NP and NP-Hard, meaning it is in NP, and every NP problem can be reduced to it in polynomial time.
+
+The concept of NP-completeness is important for solving the P-NP problem.
+
+If even one NP-complete problem is proven to be a P problem, then every NP problem can be reduced to a P problem, proving that P = NP. Conversely, if even one NP-complete problem is shown not to be in P, this serves as a counterexample, disproving P = NP.
+
+Examples of NP-complete problems include the Hamiltonian Path Problem, SAT (Boolean Satisfiability Problem), Knapsack Problem, and Graph Coloring Problem.
+
+NP-완전 문제란 NP이면서 NP-난해인 문제를 말합니다. 즉, 모든 NP 문제들을 다항시간 내에 환원할 수 있으며, 그 문제 자체도 NP에 속하는 문제입니다.
+
+NP-완전의 개념은 P-NP 문제를 해결하는 데 중요한 의미를 가집니다.
+
+만약 하나의 NP-완전 문제가 P 문제로 증명된다면, 모든 NP 문제를 P 문제로 환원할 수 있게 되어 P = NP가 성립됩니다. 반대로, NP-완전 문제 중 하나라도 P 문제가 아니라면, 이는 P ≠ NP임을 보여주게 됩니다.
+
+![image](https://github.com/user-attachments/assets/14e064e4-4cf6-48a4-aa1f-cd5eaef8ca53)\
+
+The reason why there are 2 diagrams, P = NP and P != NP, is that P = NP is not proven yet. 
+
