@@ -27,7 +27,18 @@
    earliest added element is accessed first. Priority Queue organizes elements by priority, where each element is associated with a priority level, and elements are accessed based on their priority
    rather than their insertion order.
 
-스택, 큐, 그리고 우선순위 큐는 선형자료구조라고 불립니다. 모두 일렬로 배치되어 있으며 순차적으로 접근되는 구조를 가지고 있습니다. 스택은 LIFO, 큐는 FIFO 룰을 따릅니다. (스택에선 가장 마지막에 추가된 요소가 가장 먼저 보여지고 큐에서는 가장 먼저 추가된 요소가
-가장 먼저 확인됩니다.) 이 외에도 배열과 연결리스트 또한 선형 자료구조에 포함되지만 나중에 따로 다루도록 하겠습니다.
+  스택, 큐, 그리고 우선순위 큐는 선형자료구조라고 불립니다. 모두 일렬로 배치되어 있으며 순차적으로 접근되는 구조를 가지고 있습니다. 스택은 LIFO, 큐는 FIFO 룰을 따릅니다. (스택에선 가장 마지막에 추가된 요소가 가장 먼저 보여지고 큐에서는 가장 먼저 추가된 요소가
+  가장 먼저 확인됩니다.) 이 외에도 배열과 연결리스트 또한 선형 자료구조에 포함되지만 나중에 따로 다루도록 하겠습니다.
 
-Example (Stack): https://github.com/tkim602/algorithms/tree/main/examples/leetcode/linear_data_structures/stack
+  Example (Stack): https://github.com/tkim602/algorithms/tree/main/examples/leetcode/linear_data_structures/stack
+
+
+#### NP Algorithm 
+
+1. NP algorithm (NP 알고리즘) 
+   : are computational problems where solutions can be verified in polynomial time but may not be solvable in polynomial time, with NP-complete problems being the hardest in this class, as solving any 
+   one of them efficiently would solve all NP problems efficiently.
+
+   More about NP: 
+
+
