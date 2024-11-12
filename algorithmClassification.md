@@ -17,6 +17,6 @@
 
    프로그램에서 구문분석에 중요시되는 알고리즘이다.
 
-   Example: 
+   Example: https://github.com/tkim602/algorithms/blob/main/examples/leetcode/logical
 
    
