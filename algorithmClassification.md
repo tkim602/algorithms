@@ -39,6 +39,6 @@
    : are computational problems where solutions can be verified in polynomial time but may not be solvable in polynomial time, with NP-complete problems being the hardest in this class, as solving any 
    one of them efficiently would solve all NP problems efficiently.
 
-   More about NP: 
+   More about NP: https://github.com/tkim602/algorithms/blob/main/algorithms/np-algorithm.md
 
 
