@@ -36,3 +36,22 @@ nondeterministic Turing machine. As I said above, P is a subset of NP, therefore
 
 쉽게 말해 P 와 NP 의 차이는 P는 다항시간 내에 효율적으로 풀 수 있는 문제를 말하고 NP는 문제의 답에 대한 힌트가 주어졌을 때 다항시간 내로 증명 할 수 있는 문제를 말한다. 다항시간 내에 문제를 해결 할 수 있다면, 다항시간 내에 검산을 할 수 있는 것이 당연함.
 
+## NP-Hard (Nondeterminisic Polynomial Hard) 
+
+An NP-Hard problem is a problem to which all NP problems can be reduced (transformed) in polynomial time, which means if a polynomial time solution exists for an NP-Hard problem, 
+it could also be used to solve all NP problems in polynomial time. 
+
+But, NP-Hard problems are not necessarily solvable in polynomial time; some may be solvable efficiently, while others not. 
+
+Example of Reduction: calculating the median of a given list of n numbers by transforming the problem into sorting the list in ascending order, which makes the solution easier to find.
+
+By definition, if we have an algorithm that can solve an NP-Hard problem efficiently, the algorithm could theoretically solve all NP problems. It makes NP-Hard problems as hard as the hardest problems in NP, if not harder. 
+
+NP-Hard problems, such as the Subset Sum problem above, TSP, and the Halting problem, are typically addressed through approximate or heuristic methods, as exact solutions may be infeasible. 
+
+NP-난해문제는 모든 NP 문제를 다항시간 내에 환원(reduction) 할 수 있는 문제를 말합니다. 따라서 NP-난해 문제를 다항시간 내에 해결할 수 있다면, 모든 NP 문제를 다항시간 내에 해결할 수 있게 됩니다. 
+
+하지만 NP 문제는 다항시간 내에 해결 될 수도 있고 아닐 수도 있습니다. 예를 들면, n개의 수에서 중간값을 찾는 문제는 오름차순 문제로 변형하여 쉽게 해결할 수 있는 것 처럼, 복잡한 문제를 더 단순한 형태로 바꾸는 reduction 또는 transformation을 통해서 더 쉽게 해결하기도 합니다. 
+
+NP-난해 문제는 NP 문제보다는 적어도 더 어렵거나 비슷한 문제로, 보통 정확한 해결보다는 근사치를 맞추는 방법으로 접근합니다. 
+
