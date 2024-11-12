@@ -19,5 +19,20 @@ While no polynomial-time solution to find such a subset is known, verifying that
 Thus, the Subset Sum Problem is in NP because the verification is efficient.
 
 NP는 어떤 문제에 대한 답이 네 또는 아니요 라는 것을 입증하는 힌트가 주어졌을 때 그 힌트를 사용해서 문제의 답이 네 또는 아니요 라는 걸 다항 시간 내에 확인 할 수 있는 문제이다. 
-쉽게 말해 P 와 NP 의 차이는 P는 다항시간 내에 효율적으로 풀 수 있는 문제를 말하고 NP는 문제의 답에 대한 힌트가 주어졌을 때 다항시간 내로 증명 할 수 있는 문제를 말한다. 
+
+## P VS NP 
+
+P problems are decision problems that can be solved in polynomial time, while NP problems are decision problems that can be verified in polynomial time. 
+Therefore, P and NP are not mutually exclusive. 
+
+In fact, P is a subset of NP. 
+
+P problems can be solved easily without any hints because they can be resolved for all cases within polynomial time. Solving refers to determining the answer for all possible cases,
+while verification refers to confirming the correctness of a given solution for a particular case. If a problem itself can be solved in polynomial time, it is possible to verify an answer in 
+polynomial time. 
+
+P can also be defined as the set of problems that can be solved in polynomial time using a deterministic Turing machine, while NP represents those solvable in polynomial time using a 
+nondeterministic Turing machine. As I said above, P is a subset of NP, therefore, any program designed for a deterministic Turing machine can be executed on a nondeterminisitc Turing machine.
+
+쉽게 말해 P 와 NP 의 차이는 P는 다항시간 내에 효율적으로 풀 수 있는 문제를 말하고 NP는 문제의 답에 대한 힌트가 주어졌을 때 다항시간 내로 증명 할 수 있는 문제를 말한다. 다항시간 내에 문제를 해결 할 수 있다면, 다항시간 내에 검산을 할 수 있는 것이 당연함.
 
