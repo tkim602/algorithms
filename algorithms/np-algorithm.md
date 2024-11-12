@@ -47,6 +47,8 @@ Example of Reduction: calculating the median of a given list of n numbers by tra
 
 By definition, if we have an algorithm that can solve an NP-Hard problem efficiently, the algorithm could theoretically solve all NP problems. It makes NP-Hard problems as hard as the hardest problems in NP, if not harder. 
 
+Simpler example) multiplication can be redeced to addition. For instance, 5 X 6 is the same as adding 5 six times. Thus, we can define an addition is "harder" then a multiplication since multiplication is simply repeated addition). 
+
 NP-Hard problems, such as the Subset Sum problem above, TSP, and the Halting problem, are typically addressed through approximate or heuristic methods, as exact solutions may be infeasible. 
 
 NP-난해문제는 모든 NP 문제를 다항시간 내에 환원(reduction) 할 수 있는 문제를 말합니다. 따라서 NP-난해 문제를 다항시간 내에 해결할 수 있다면, 모든 NP 문제를 다항시간 내에 해결할 수 있게 됩니다. 
@@ -54,4 +56,6 @@ NP-난해문제는 모든 NP 문제를 다항시간 내에 환원(reduction) 할
 하지만 NP 문제는 다항시간 내에 해결 될 수도 있고 아닐 수도 있습니다. 예를 들면, n개의 수에서 중간값을 찾는 문제는 오름차순 문제로 변형하여 쉽게 해결할 수 있는 것 처럼, 복잡한 문제를 더 단순한 형태로 바꾸는 reduction 또는 transformation을 통해서 더 쉽게 해결하기도 합니다. 
 
 NP-난해 문제는 NP 문제보다는 적어도 더 어렵거나 비슷한 문제로, 보통 정확한 해결보다는 근사치를 맞추는 방법으로 접근합니다. 
+
+쉽게말하면 곱셈은 덧셈을 여러번 하는 것으로 해결 가능합니다. 따라서 덧셈이 곱셈보다 더 "어렵다" 라고 정의합니다. 
 
