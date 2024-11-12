@@ -19,4 +19,17 @@
 
    Example: https://github.com/tkim602/algorithms/blob/main/examples/leetcode/logical
 
+#### Classification by Data Structure
+
+1. Linear Data Structures (선형 자료구조)
+  : Organize data sequentially and follow specific access rules like LIFO, FIFO, or priority-based ordering.
+  In a Stack, elements follow a Last In, First Out (LIFO) order, meaning the most recently added element is accessed first. In a Queue, elements follow a First In, First Out (FIFO) order, so the 
+  earliest added element is accessed first. Priority Queue organizes elements by priority, where each element is associated with a priority level, and elements are accessed based on their priority 
+  rather than their insertion order.
+
+  스택, 큐, 그리고 우선순위 큐는 선형자료구조라고 불립니다. 모두 일렬로 배치되어 있으며 순차적으로 접근되는 구조를 가지고 있습니다. 스택은 LIFO, 큐는 FIFO 룰을 따릅니다. (스택에선 가장 마지막에 추가된 요소가 가장 먼저 보여지고 큐에서는 가장 먼저 추가된 요소가 
+  가장 먼저 확인됩니다.) 이 외에도 배열과 연결리스트 또한 선형 자료구조에 포함되지만 나중에 따로 다루도록 하겠습니다. 
+
+  Example: 
+
    
