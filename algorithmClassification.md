@@ -41,4 +41,11 @@
 
    More about NP: https://github.com/tkim602/algorithms/blob/main/algorithms/np-algorithm.md
 
+#### Graph Algorithms
+
+1. Graph Algorithms (그래프 알고리즘)   
+   Graph algorithms are methods used to solve problems on graphs, which consist of vertices (nodes) and edges (connections). These algorithms are widely used for finding paths, cycles, or connected components in networks, and they form the foundation of various real-world applications like social networks, navigation systems, and web crawling.  
+   대표적인 그래프 알고리즘으로는 그래프 상의 경로, 사이클, 연결된 컴포넌트를 탐색하기 위해 사용되는 DFS, BFS, Dijkstra, Bellman-Ford, Kruskal, Prim 알고리즘 등이 있습니다. 그래프는 정점(노드)과 간선(연결)으로 구성되며, 소셜 네트워크, 내비게이션 시스템, 웹 크롤링 등 다양한 실생활 응용에서 사용됩니다.
+
+   More about graph algorithms: https://github.com/tkim602/algorithms/blob/main/algorithms/graph-algorithm.md
 
